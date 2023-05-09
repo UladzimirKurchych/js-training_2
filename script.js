@@ -1,14 +1,13 @@
 
 
-let num = 14;
+let num = 80;
 let sum;
 
 if (num >= 10 && num <= 99) {
-	sum = String(num)[0] + String(num)[1];
-		if (sum <= 10) {
-			console.log('сумма циф числа однозначна')
+	sum = +String(num)[0] + +String(num)[1];
+		if (sum >=0 && sum <= 9) {
+			console.log('qwerty');
 		} else {
-			console.log('сумма цифр числа двузначна');
+			console.log('asdf');
 		}
 }
-
