@@ -1,7 +1,14 @@
 
-let arr = [1, 2, 3];
+let obj = {
+	a: 1,
+	b: 2,
+	c: 3,
+	d: 4,
+}
 
-for (let elem of arr) {
-	console.log(elem);
+for (let key in obj) {
+	if (obj[key] % 2 !== 0) {
+		console.log(obj[key]);
+	}
 }
 
