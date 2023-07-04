@@ -1,4 +1,5 @@
 
-let a = 5;
+let a = 9;
+let b = +a;
 
-console.log(-a);
+console.log(b);
